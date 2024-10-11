@@ -1,0 +1,94 @@
+.myProjects{
+    height: 145vh;
+    width: 100%;
+}
+
+.projects-h1{
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: var(--color-h1Informations);
+}
+
+.projects{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 5rem;
+    row-gap: 2rem;
+}
+.conteiner-project{
+    height: 21rem;
+    width: 21rem;
+    background-color: var(--color-apresentation);
+    border: 3px solid black;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0.2rem;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    column-gap: 0.5rem;
+}
+
+.links a{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    background-color:rgb(31, 45, 53);
+    color: var(--text-contact);
+    border-radius: 0.4rem;
+    column-gap: 10px;
+    transition: .3s;
+}
+
+.links a:hover{
+    background-color: rgb(93, 121, 134);
+    color: var(--text);
+}
+
+.img{
+    height: 65%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.project{
+    height: 100%;
+    width: 85%;
+    
+}
+
+.project > .text{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.links svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--text-contact);
+}

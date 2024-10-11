@@ -1,0 +1,56 @@
+.about{
+    color: var(--text);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.aboutLeft{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutLeft img{
+    width: 30vw;
+    height: 60vh;
+    border-radius: 5rem;
+}
+.aboutRight{
+    width: 50vw;
+    height: 100%;
+    padding: 100px 40px;
+    
+}
+
+.about-h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: var(--color-h1Informations);
+}
+
+.about-p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    padding: 40px 60px 40px 60px;
+    color: var(--text);
+}
+
+.about-p > span{
+    margin-left: 10px ;
+}
+
+.linksSocialMediasAbout{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}

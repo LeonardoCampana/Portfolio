@@ -1,0 +1,1333 @@
+@media  (max-width: 402px){  
+    
+    #themeSwitcher{
+        font-size: 0.7rem;
+    }
+    
+    .container-header-right > img{
+        width: 0;
+    }
+
+    .container-header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-header-left{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-h2{
+        font-size: 1rem;
+    }
+
+    .header-h3{
+        font-size: 0.6rem;
+    }
+
+    .socialMidia{
+        justify-content: center;
+    }
+
+    .botao .texto{
+        font-size: 1.05rem;
+    }
+
+    /*about*/
+
+    .about-h1{
+        font-size: 1.6rem;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 150vh;
+    }
+
+    .aboutRight{
+        width: 100vw;
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+
+    .aboutLeft{
+        width: 100vw;
+        align-items: start;
+    }
+
+    .aboutLeft img{
+        width: 13rem;
+        height: 14rem;
+    }
+
+    .about-p{
+        padding: 0px;
+        font-size: 0.7rem;
+    }
+
+    /*skills*/
+
+    .skills-h1{
+        font-size: 1.6rem;
+    }
+    .listOfSkills{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .skillsList{
+        width: 5rem;
+        height: 5rem;
+        font-size: 0.7rem;
+    }
+
+    .listOfSkills li img{
+        height: 40px;
+        width: 40px;
+        margin-bottom: 10px;
+    }
+
+    /*projects*/
+
+    .myProjects{
+        width: 98%;
+    }
+
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 0;
+        margin-left: 5px;
+        place-items: center;
+    }
+
+    .conteiner-project{
+        height: 11rem;
+        width: 9.5rem;
+    }
+
+    .project > .text{
+        font-size: 0.39rem;
+    }
+
+    .links a {
+        width: 17vw;
+        height: 5vh;
+        column-gap: 0;
+    }
+
+    .links{
+        height: 12%;
+    }
+
+    .links a p{
+        width: 0;
+        color: transparent;
+        display: inline;
+    }
+
+    .links svg{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .projects-h1{
+        font-size: 1.6rem;
+    }
+
+    .img img{
+        height: 90%;
+    }
+
+    /*contact*/
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .linksSocialMediasAbout {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        column-gap: 20px;
+        height: 15rem;
+    }
+
+    .linksSocialMediasAbout a{
+        width: 6rem;
+        height: 5rem;
+        margin-right: 10px;
+        transition: 0.3s;
+        margin-right: 0;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .linksSocialMediasAbout a p{
+        color: transparent;
+    }
+
+    .contact form {
+        height: 50vh;
+        width: 100%;
+        margin: 0rem 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contactForm{
+        margin: 0;
+    }
+
+    .contactArea{
+        font-size: 1rem;
+    }
+
+    .contactArea input{
+        width: 80vw;
+        font-size: 0.8rem;
+    }
+
+    .message > textarea{
+        width: 80vw;
+        font-size: 0.8rem;
+    }
+
+    .submit input{
+        font-size: 0.8rem;
+    }
+
+    /*nav*/
+
+    .navbar{
+        column-gap: 5px;
+    }
+
+    .navbar li a img {
+        height: 25px;
+        width: 25px;
+    }
+
+    footer p {
+        margin-top: 3rem;
+    }
+}
+
+
+@media  (min-width: 403px) and (max-width: 600px){   
+
+    .container-header-right > img{
+        width: 0;
+    }
+
+    .container-header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-header-left{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .header-h2{
+        font-size: 1.5rem;
+    }
+
+    .header-h3{
+        font-size: 1rem;
+    }
+
+    .socialMidia{
+        justify-content: center;
+    }
+
+    .botao .texto{
+        font-size: 1.05rem;
+    }
+
+    /*about*/
+
+    .about-h1{
+        font-size: 2rem;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 150vh;
+    }
+
+    .aboutRight{
+        width: 100vw;
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+
+    .aboutLeft{
+        width: 100vw;
+        align-items: start;
+    }
+
+    .aboutLeft img{
+        width: 13rem;
+        height: 14rem;
+    }
+
+    .about-p{
+        padding: 10px 10px 40px 10px;
+        font-size: 0.8rem;
+    }
+
+    /*skills*/
+
+    .skills-h1{
+        font-size: 2rem;
+    }
+    .listOfSkills{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .skillsList{
+        width: 6rem;
+        height: 6rem;
+        font-size: 0.8rem;
+    }
+
+    .listOfSkills li img{
+        height: 40px;
+        width: 40px;
+        margin-bottom: 10px;
+    }
+
+    /*projects*/
+
+    .myProjects{
+        width: 98%;
+    }
+
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 0;
+        margin-left: 5px;
+        place-items: center;
+    }
+
+    .conteiner-project{
+        height: 11rem;
+        width: 10rem;
+    }
+
+    .project > .text{
+        font-size: 0.4rem;
+    }
+
+    .links a {
+        width: 50%;
+        height: 5vh;
+        column-gap: 0;
+    }
+
+    .links{
+        height: 12%;
+    }
+
+    .links a p{
+        width: 0;
+        color: transparent;
+        display: inline;
+    }
+
+    .links svg{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .projects-h1{
+        font-size: 2rem;
+    }
+
+    .img img{
+        height: 90%;
+    }
+
+    /*contact*/
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .linksSocialMediasAbout {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        column-gap: 20px;
+        height: 15rem;
+    }
+
+    .linksSocialMediasAbout a{
+        width: 6rem;
+        height: 5rem;
+        margin-right: 10px;
+        transition: 0.3s;
+        margin-right: 0;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .linksSocialMediasAbout a p{
+        color: transparent;
+    }
+
+    .contact form {
+        height: 50vh;
+        width: 100%;
+        margin: 0rem 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contactForm{
+        margin: 0;
+    }
+
+    .contactArea{
+        font-size: 1rem;
+    }
+
+    .contactArea input{
+        width: 17rem;
+        font-size: 0.8rem;
+    }
+
+    .message > textarea{
+        width: 17rem;
+        font-size: 0.8rem;
+    }
+
+    .submit input{
+        font-size: 0.8rem;
+    }
+
+    /*nav*/
+
+    .navbar{
+        column-gap: 5px;
+    }
+
+    .navbar li a img {
+        height: 25px;
+        width: 25px;
+    }
+
+    footer p {
+        margin-top: 3rem;
+    }
+}
+
+
+@media  (min-width: 601px) and (max-width: 799px){   
+
+
+    .container-header{
+        align-items: center;
+    }
+
+    .container-header-left{
+        width: 50%;
+
+    }
+
+    .header-h2{
+        font-size: 1.1rem;
+    }
+
+    .header-h3{
+        font-size: 0.7rem;
+    }
+
+    .botao .texto{
+        font-size: 1.05rem;
+    }
+
+
+    /*about*/
+
+    .about-h1{
+        font-size: 2rem;
+    }
+
+    .about{
+        display: flex;
+        height: 100vh;
+    }
+
+    .aboutRight{
+        width: 50%;
+        padding-bottom: 0;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutLeft{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutLeft img{
+        height: 15rem;
+        width: 14rem;
+
+    }
+
+    .about-p{
+        padding: 10px 10px 40px 10px;
+        font-size: 0.7rem;
+    }
+
+    /*skills*/
+
+    .skills-h1{
+        font-size: 2rem;
+    }
+    .listOfSkills{
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .skillsList{
+        width: 6.5rem;
+        height: 6.5rem;
+        font-size: 0.9rem;
+    }
+
+    .listOfSkills li img{
+        height: 40px;
+        width: 40px;
+        margin-bottom: 10px;
+    }
+
+    /*projects*/
+
+    .myProjects{
+        width: 98%;
+    }
+
+    .projects{
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 0;
+        margin-left: 5px;
+        place-items: center;
+    }
+
+    .conteiner-project{
+        height: 15rem;
+        width: 14rem;
+    }
+
+    .project > .text{
+        font-size: 0.5rem;
+    }
+
+    .links a {
+        width: 12vw;
+        height: 5vh;
+        column-gap: 0;
+    }
+
+    .links{
+        height: 12%;
+    }
+
+    .links a p{
+        width: 0;
+        color: transparent;
+        display: inline;
+    }
+
+    .links svg{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .projects-h1{
+        font-size: 2rem;
+    }
+
+    .img img{
+        height: 90%;
+    }
+
+    /*contact*/
+
+    .linksSocialMediasAbout {
+        align-items: center;
+        width: 100%;
+        height: 25rem;
+    }
+
+    .linksSocialMediasAbout a{
+        width: 15rem;
+        height: 15rem;
+        margin-right: 10px;
+        transition: 0.3s;
+        margin-right: 0;
+        margin-top: 3rem;
+    }
+
+    .linksSocialMediasAbout a p{
+        font-size: 0.7rem;
+    }
+
+    .contact form {
+        height: 50vh;
+        width: 100%;
+        margin: 0rem 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contactForm{
+        height: 100%;
+    }
+
+    .contactArea{
+        font-size: 0.9rem;
+    }
+
+    .contactArea input{
+        width: 17rem;
+        font-size: 0.8rem;
+    }
+
+    .message > textarea{
+        width: 17rem;
+        font-size: 0.8rem;
+    }
+
+    .submit input{
+        font-size: 0.8rem;
+    }
+
+    /*nav*/
+
+    .navbar{
+        column-gap: 14px;
+    }
+
+    .navbar li a img {
+        height: 28px;
+        width: 28px;
+    }
+}
+
+
+@media  (min-width: 800px) and (max-width: 1024px){   
+
+
+    .container-header{
+        align-items: center;
+    }
+
+    .container-header-right > img{
+        width: 34vw;
+    }
+
+    .container-header-left{
+        width: 50%;
+
+    }
+
+    .header-h2{
+        font-size: 1.5rem;
+    }
+
+    .header-h3{
+        font-size: 0.9rem;
+    }
+
+    .botao .texto{
+        font-size: 1rem;
+        left: 1.5em;
+        top: 1.2rem;
+    }
+
+
+    /*about*/
+
+    .about-h1{
+        font-size: 2.2rem;
+    }
+
+    .about{
+        display: flex;
+        height: 100vh;
+    }
+
+    .aboutRight{
+        width: 50%;
+        padding-bottom: 0;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutLeft{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutLeft img{
+        height: 18rem;
+        width: 18rem;
+
+    }
+
+    .about-p{
+        padding: 10px 10px 40px 10px;
+        font-size: 0.9rem;
+    }
+
+    /*skills*/
+
+    .skills-h1{
+        font-size: 2.2rem;
+    }
+    .listOfSkills{
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .skillsList{
+        width: 7rem;
+        height: 8rem;
+        font-size: 0.9rem;
+    }
+
+    .listOfSkills li img{
+        height: 46px;
+        width: 46px;
+        margin-bottom: 10px;
+    }
+
+    /*projects*/
+
+    .myProjects{
+        width: 98%;
+    }
+
+    .projects{
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 0;
+        margin-left: 5px;
+        place-items: center;
+    }
+
+    .conteiner-project{
+        height: 18rem;
+        width: 15rem;
+    }
+
+    .project > .text{
+        font-size: 0.6rem;
+    }
+
+    .links a {
+        width: 12vw;
+        height: 6vh;
+        column-gap: 0;
+    }
+
+    .links{
+        height: 12%;
+    }
+
+    .links a p{
+        width: 0;
+        color: transparent;
+        display: inline;
+    }
+
+    .links svg{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .projects-h1{
+        font-size: 2.2rem;
+    }
+
+    .img img{
+        height: 90%;
+    }
+
+    /*contact*/
+
+    .linksSocialMediasAbout {
+        align-items: center;
+        width: 100%;
+        height: 20rem;
+    }
+
+    .linksSocialMediasAbout a{
+        width: 15rem;
+        height: 9rem;
+        margin-right: 10px;
+        transition: 0.3s;
+        margin-right: 0;
+    }
+
+    .linksSocialMediasAbout a p{
+        font-size: 13px;
+    }
+
+    .contact form {
+        height: 50vh;
+        width: 100%;
+        margin: 0rem 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contactForm{
+        height: 100%;
+    }
+
+    .contactArea{
+        font-size: 1.1rem;
+    }
+
+    .contactArea input{
+        width: 22rem;
+        font-size: 0.9rem;
+    }
+
+    .message > textarea{
+        width: 22rem;
+        font-size: 0.9rem;
+    }
+
+    .submit input{
+        font-size: 0.9rem;
+    }
+
+    /*nav*/
+
+    .navbar{
+        column-gap: 14px;
+    }
+
+    .navbar li a img {
+        height: 32px;
+        width: 32px;
+    }
+}
+
+
+@media  (min-width: 1025px) and (max-width: 1440px){   
+
+    #themeSwitcher{
+        font-size: 15px;
+    }
+
+    .container-header{
+        align-items: center;
+    }
+
+    .container-header-right > img{
+        width: 30vw;
+    }
+
+    .container-header-left{
+        width: 50%;
+
+    }
+
+    .header-h2{
+        font-size: 2.1rem;
+    }
+
+    .header-h3{
+        font-size: 1rem;
+    }
+
+    .icon{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .socialMidia{
+        align-items: baseline;
+        column-gap: 1.5rem;
+    }
+
+    .botao{
+        height: 4rem;
+        width: 11rem;
+    }
+
+    .botao .texto{
+        font-size: 1.2rem;
+        left: 1.4em;
+        top: 1.2rem;
+    
+    }
+
+
+    /*about*/
+
+    .about{
+        display: flex;
+        height: 100vh;
+    }
+
+    .aboutRight{
+        width: 50%;
+        padding-bottom: 0;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutLeft{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-h1{
+        font-size: 2.6rem;
+    }
+    .aboutLeft img{
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .about-p{
+        padding: 10px 10px 40px 0px;
+        font-size: 1.2rem;
+    }
+
+    /*skills*/
+
+    .skills-h1{
+        font-size: 2.6rem;
+    }
+    .listOfSkills{
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .skillsList{
+        width: 8rem;
+        height: 8.5rem;
+        font-size: 1rem;
+    }
+
+    .listOfSkills li img{
+        height: 60px;
+        width: 60px;
+        margin-bottom: 10px;
+        column-gap: 1.5rem;
+    }
+
+    /*projects*/
+
+    .myProjects{
+        width: 98%;
+    }
+
+    .projects{
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 0;
+        margin-left: 5px;
+        place-items: center;
+    }
+
+    .conteiner-project{
+        height: 20rem;
+        width: 18rem;
+    }
+
+    .project > .text{
+        font-size: 0.7rem;
+    }
+
+    .links a {
+        width: 7rem;
+        height: 3rem;
+        column-gap: 0;
+    }
+
+    .links{
+        height: 15%;
+    }
+
+    .links a p{
+        width: 0;
+        color: transparent;
+        display: inline;
+    }
+
+    .links svg{
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+    .projects-h1{
+        font-size: 2.6rem;
+    }
+
+    .img img{
+        height: 90%;
+    }
+
+    /*contact*/
+
+    .linksSocialMediasAbout {
+        align-items: center;
+        width: 100%;
+        height: 26rem;
+    }
+
+    .linksSocialMediasAbout a{
+        width: 17rem;
+        height: 14rem;
+        margin-right: 10px;
+        transition: 0.3s;
+        margin-right: 0;
+    }
+
+    .linksSocialMediasAbout a p{
+        font-size: 1rem;
+    }
+
+    .linksSocialMediasAbout a span{
+        font-size: 1.5rem;
+    }
+
+    .contact form {
+        height: 50vh;
+        width: 100%;
+        margin: 0rem 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contactForm{
+        height: 100%;
+    }
+
+    .contactArea{
+        font-size: 1.2rem;
+    }
+
+    .contactArea input{
+        width: 25rem;
+        font-size: 1rem;
+    }
+
+    .message > textarea{
+        width: 25rem;
+        font-size: 1rem;
+    }
+
+    .submit input{
+        font-size: 1rem;
+    }
+
+    /*nav*/
+
+    .navbar{
+        column-gap: 1.5rem;
+        width: 22rem;
+        height: 3rem;
+    }
+
+    .navbar li a img {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .navbar li a{
+        height: 2.7rem;
+        width: 2.7rem;
+
+    }
+
+    /*footer*/
+
+    footer p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+
+@media  (min-width: 1441px){   
+
+    #themeSwitcher{
+        font-size: 2rem;
+    }
+
+    .container-header{
+        align-items: center;
+    }
+
+    .container-header-right > img{
+        width: 30vw;
+    }
+
+    .container-header-left{
+        width: 50%;
+
+    }
+
+    .header-h2{
+        font-size: 5.5rem;
+    }
+
+    .header-h3{
+        font-size: 3rem;
+    }
+
+    .socialMidia{
+        column-gap: 3rem;
+        align-items: baseline;
+    }
+
+    .icon{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .botao{
+        height: 5rem;
+        width: 14rem;
+    }
+
+    .botao .texto{
+        font-size: 1.5rem;
+        top: 1.5rem;
+    }
+
+
+    /*about*/
+
+    .about{
+        display: flex;
+        height: 100vh;
+    }
+
+    .aboutRight{
+        width: 50%;
+        padding-bottom: 0;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutLeft{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-h1{
+        font-size: 5rem;
+    }
+    .aboutLeft img{
+        height: 39rem;
+        width: 43rem;
+    }
+
+    .about-p{
+        padding: 10px 10px 40px 10px;
+        font-size: 2.4rem;
+    }
+
+    /*skills*/
+
+    .skills-h1{
+        font-size: 5rem;
+    }
+    .listOfSkills{
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .skillsList{
+        width: 15rem;
+        height: 14rem;
+        font-size: 2.2rem;
+    }
+
+    .listOfSkills li img{
+        height: 60px;
+        width: 60px;
+        margin-bottom: 10px;
+        column-gap: 1.5rem;
+    }
+
+    /*projects*/
+
+    .myProjects{
+        width: 98%;
+    }
+
+    .projects{
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 0;
+        margin-left: 5px;
+        place-items: center;
+    }
+
+    .conteiner-project{
+        height: 34rem;
+        width: 34rem;
+    }
+
+    .project > .text{
+        font-size: 1.4rem;
+    }
+
+    .links a {
+        width: 50%;
+        height: 4.6vh;
+        column-gap: 0;
+    }
+
+    .links{
+        height: 15%;
+    }
+
+    .links a p{
+        width: 0;
+        color: transparent;
+        display: inline;
+    }
+
+    .links svg{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .projects-h1{
+        font-size: 5rem;
+    }
+
+    .img img{
+        height: 90%;
+    }
+
+    /*contact*/
+
+    .linksSocialMediasAbout {
+        align-items: center;
+        width: 100%;
+        height: 28vh;
+    }
+
+    .linksSocialMediasAbout a{
+        width: 18vw;
+        height: 15vh;
+        margin-right: 10px;
+        transition: 0.3s;
+        margin-right: 0;
+    }
+
+    .linksSocialMediasAbout a p{
+        font-size: 1.8rem;
+    }
+
+    .linksSocialMediasAbout a span{
+        font-size: 2rem;
+    }
+
+    .contact form {
+        height: 50vh;
+        width: 100%;
+        margin: 0rem 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contactForm{
+        height: 100%;
+    }
+
+    .contactArea{
+        font-size: 2.5rem;
+    }
+
+    .contactArea input{
+        width: 25vw;
+        font-size: 1.8rem;
+        height: 4vh;
+    }
+
+    .message > textarea{
+        width: 25vw;
+        font-size: 1.8rem;
+    }
+
+    .submit input{
+        font-size: 17px;
+    }
+
+    /*nav*/
+
+    .navbar{
+        width: 20vw;
+        height: 5vh;
+        column-gap: 3rem;
+    }
+
+    .navbar li a img {
+        height: 3vh;
+        width: 3vw;
+    }
+
+    .navbar li a{
+        height: 4vh;
+        width: 4vw;
+    }
+
+    /*footer*/
+
+    footer p {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+
+}
+
+
+
+

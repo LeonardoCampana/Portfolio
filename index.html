@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="darkMode">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="icon" href="/assets/L.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/responsividade.css">
+    <script src="./entities/sendEmail.js" defer></script>
+    <script src="./entities/darkMode.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Leonardo Campana</title>
+</head>
+<body>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#header" class="navbar-itens" title="Home"><img src="./assets/icons-navbar/home.svg" alt=""></a></li>
+            <li><a href="#skills"class="navbar-itens" title="Habilidades"><img src="./assets/icons-navbar/code.svg" alt=""></a></li>
+            <li><a href="#myProjects"class="navbar-itens" title="Projetos"><img src="./assets/icons-navbar/work.svg" alt=""></a></li>
+            <li><a href="#about" class="navbar-itens" title="Sobre mim"><img src="./assets/icons-navbar/person.svg" alt=""></a></li>
+            <li><a href="#contact"class="navbar-itens" title="Contato"><img src="./assets/icons-navbar/smartphone.svg" alt=""></a></li>
+        </ul>
+    </nav>
+    
+    <header id="header">
+        <button id="themeSwitcher"></button>
+        
+        <div class="container-header">
+            <div class="container-header-left">
+
+                
+
+                <h2 class="header-h2">Olá, meu nome é Leonardo</h2>
+
+                <h3 class="header-h3"><span id="spanName"></span></h3>
+                
+                
+                <div class="socialMidia">
+        
+                    <a href="https://www.linkedin.com/in/leonardobcampana/" target="_blank" class="social-itens">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="2" />
+                            <line x1="8" y1="11" x2="8" y2="16" />
+                            <line x1="8" y1="8" x2="8" y2="8.01" />
+                            <line x1="12" y1="16" x2="12" y2="11" />
+                            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/LeonardoCampana" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                            </svg>
+                    </a>
+               
+                   
+                </div><br><br><br>
+                
+                
+                <a href="./assets/doc/Currículo2.pdf" download>
+                    <button class="botao">
+                      <p class="texto">Download CV</p>
+                      <div class="svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-download" viewBox="0 0 16 16">
+                          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
+                          <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+                        </svg>
+                      </div>
+                    </button>
+                  </a>
+                  
+
+            </div>
+            <div class="container-header-right">
+
+                <img src="./assets/images/leo ia2.jpg" alt="foto">
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="skills" id="skills">
+        <h1 class="skills-h1">HABILIDADES</h1>
+        <ul class="listOfSkills">
+
+            <li class="skillsList">
+                <img src="./assets/iconsLanguages/html-image.svg" alt="HTML">
+                <p>HTML</p>
+            </li>
+            <li class="skillsList">
+                <img src="./assets/iconsLanguages/css-image.svg" alt="CSS">
+                <p>CSS</p>
+            </li>
+
+            <li class="skillsList">
+                <img src="./assets/iconsLanguages/javascript-image.svg" alt="Javascrip">
+                <p>JAVASCRIPT</p>
+            </li>
+            <li class="skillsList">
+                <img src="./assets/iconsLanguages/react-image.svg" alt="React">
+                <p>REACT</p>
+            </li>
+            <li class="skillsList">
+                <img src="./assets/iconsLanguages/nodeJs.svg" alt="nodeJS">
+                <p>NODE JS</p>
+            </li>
+            <li class="skillsList">
+                <img src="./assets/iconsLanguages/CSharp.svg" alt="c#">
+                <p>C#</p>
+            </li>
+            <li class="skillsList">
+                <img src="./assets/iconsLanguages/NET core.svg" alt="Babel">
+                <p>.NET</p>
+            </li>
+            <li class="skillsList">
+                <img src="./assets/iconsLanguages/Python.svg" alt="python">
+                <p>Python</p>
+            </li>
+            
+
+        </ul>
+
+    </section>
+
+    <section class="myProjects" id="myProjects">
+
+        <h1 class="projects-h1">Meus projetos</h1>
+
+        <div class="projects">
+
+            <div class="conteiner-project project1">
+                <div class="project">
+                    <div class="text">
+                        <h2>Consultor de CEP</h2>
+                    </div>
+    
+                    <div class="img">
+                        <img src="./assets/ImageProjects/ConsultorDeCEP/consultor-de-cep3.png" alt="">
+                    </div>
+    
+                    <div class="links">
+                        <a href="https://github.com/LeonardoCampana/Consultor-de-CEP" target="_blank" class="github">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                            </svg>
+                        </a>
+                        <a href="https://youtu.be/Newtnmr-fzA" target="_blank" class="github">
+                            
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M162.21875,124.67188l-48-32A3.99967,3.99967,0,0,0,108,96v64a3.99987,3.99987,0,0,0,6.21875,3.32812l48-32a3.99979,3.99979,0,0,0,0-6.65624ZM116,152.52588V103.47412L152.78906,128Zm114.46-81.7207a19.95588,19.95588,0,0,0-12.06934-13.62012C184.59766,44.19873,130.272,44.397,128.02539,44.40771c-2.29443-.01318-56.62207-.20947-90.416,12.77735A19.95556,19.95556,0,0,0,25.54053,70.80469C23.0127,80.50928,20,98.30957,20,128c0,29.69141,3.0127,47.49121,5.54,57.19482a19.95588,19.95588,0,0,0,12.06934,13.62012c33.793,12.98633,88.11865,12.791,90.36523,12.77735.11279.00048.35059.002.707.002,6.88379,0,57.57764-.43164,89.709-12.7793a19.95556,19.95556,0,0,0,12.06885-13.61963C232.9873,175.49072,236,157.69043,236,128,236,98.30859,232.9873,80.50879,230.46,70.80518Zm-7.74219,112.37353a11.9384,11.9384,0,0,1-7.19677,8.16846c-32.37452,12.44092-86.9458,12.25342-87.54639,12.24512-.54981-.00049-55.12207.19531-87.49609-12.24512a11.93961,11.93961,0,0,1-7.19629-8.16895C30.87207,173.92676,28,156.84424,28,128c0-28.84326,2.87256-45.92676,5.28223-55.17871A11.9384,11.9384,0,0,1,40.479,64.65283c32.37452-12.44092,86.94825-12.24267,87.54639-12.24512.5459-.00634,55.12158-.19628,87.49609,12.24512a11.93961,11.93961,0,0,1,7.19629,8.169C225.12793,82.07324,228,99.15576,228,128,228,156.84326,225.12744,173.92676,222.71777,183.17871Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conteiner-project project2">
+                <div class="project">
+                    <div class="text">
+                        <h2>Bot para Envio de Emails</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./assets/ImageProjects/BotEmail/bot-email.png" alt="">
+                    </div>
+    
+                    <div class="links">
+                        <a href="https://github.com/LeonardoCampana/Bot-Email" target="_blank" class="github">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                            </svg>
+                        </a>
+                        <a href="https://youtu.be/Z8xryzCgA6Q" target="_blank" class="github">
+                            
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M162.21875,124.67188l-48-32A3.99967,3.99967,0,0,0,108,96v64a3.99987,3.99987,0,0,0,6.21875,3.32812l48-32a3.99979,3.99979,0,0,0,0-6.65624ZM116,152.52588V103.47412L152.78906,128Zm114.46-81.7207a19.95588,19.95588,0,0,0-12.06934-13.62012C184.59766,44.19873,130.272,44.397,128.02539,44.40771c-2.29443-.01318-56.62207-.20947-90.416,12.77735A19.95556,19.95556,0,0,0,25.54053,70.80469C23.0127,80.50928,20,98.30957,20,128c0,29.69141,3.0127,47.49121,5.54,57.19482a19.95588,19.95588,0,0,0,12.06934,13.62012c33.793,12.98633,88.11865,12.791,90.36523,12.77735.11279.00048.35059.002.707.002,6.88379,0,57.57764-.43164,89.709-12.7793a19.95556,19.95556,0,0,0,12.06885-13.61963C232.9873,175.49072,236,157.69043,236,128,236,98.30859,232.9873,80.50879,230.46,70.80518Zm-7.74219,112.37353a11.9384,11.9384,0,0,1-7.19677,8.16846c-32.37452,12.44092-86.9458,12.25342-87.54639,12.24512-.54981-.00049-55.12207.19531-87.49609-12.24512a11.93961,11.93961,0,0,1-7.19629-8.16895C30.87207,173.92676,28,156.84424,28,128c0-28.84326,2.87256-45.92676,5.28223-55.17871A11.9384,11.9384,0,0,1,40.479,64.65283c32.37452-12.44092,86.94825-12.24267,87.54639-12.24512.5459-.00634,55.12158-.19628,87.49609,12.24512a11.93961,11.93961,0,0,1,7.19629,8.169C225.12793,82.07324,228,99.15576,228,128,228,156.84326,225.12744,173.92676,222.71777,183.17871Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conteiner-project project3">
+                <div class="project">
+                    <div class="text">
+                        <h2>E-Commerce</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./assets/ImageProjects/GamesStore/gamesStoreImg.png" alt="">
+                    </div>
+    
+                    <div class="links">
+                        <a href="https://github.com/LeonardoCampana/Games-Store" target="_blank" class="github">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                            </svg>
+                        </a>
+                        <a href="https://youtu.be/xCdVlKUVzJo" target="_blank" class="github">
+                            
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M162.21875,124.67188l-48-32A3.99967,3.99967,0,0,0,108,96v64a3.99987,3.99987,0,0,0,6.21875,3.32812l48-32a3.99979,3.99979,0,0,0,0-6.65624ZM116,152.52588V103.47412L152.78906,128Zm114.46-81.7207a19.95588,19.95588,0,0,0-12.06934-13.62012C184.59766,44.19873,130.272,44.397,128.02539,44.40771c-2.29443-.01318-56.62207-.20947-90.416,12.77735A19.95556,19.95556,0,0,0,25.54053,70.80469C23.0127,80.50928,20,98.30957,20,128c0,29.69141,3.0127,47.49121,5.54,57.19482a19.95588,19.95588,0,0,0,12.06934,13.62012c33.793,12.98633,88.11865,12.791,90.36523,12.77735.11279.00048.35059.002.707.002,6.88379,0,57.57764-.43164,89.709-12.7793a19.95556,19.95556,0,0,0,12.06885-13.61963C232.9873,175.49072,236,157.69043,236,128,236,98.30859,232.9873,80.50879,230.46,70.80518Zm-7.74219,112.37353a11.9384,11.9384,0,0,1-7.19677,8.16846c-32.37452,12.44092-86.9458,12.25342-87.54639,12.24512-.54981-.00049-55.12207.19531-87.49609-12.24512a11.93961,11.93961,0,0,1-7.19629-8.16895C30.87207,173.92676,28,156.84424,28,128c0-28.84326,2.87256-45.92676,5.28223-55.17871A11.9384,11.9384,0,0,1,40.479,64.65283c32.37452-12.44092,86.94825-12.24267,87.54639-12.24512.5459-.00634,55.12158-.19628,87.49609,12.24512a11.93961,11.93961,0,0,1,7.19629,8.169C225.12793,82.07324,228,99.15576,228,128,228,156.84326,225.12744,173.92676,222.71777,183.17871Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conteiner-project project4">
+                <div class="project">
+                    <div class="text">
+                        <h2>Encurtador de links</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./assets/ImageProjects/urlShortner/urlShortnnerImage.png" alt="">
+                    </div>
+    
+                    <div class="links">
+                        <a href="https://github.com/LeonardoCampana/Encurtador-De-Url" target="_blank" class="github">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                            </svg>
+                        </a>
+                        <a href="https://youtu.be/Y_izwzlRtOg" target="_blank" class="github">
+                            
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M162.21875,124.67188l-48-32A3.99967,3.99967,0,0,0,108,96v64a3.99987,3.99987,0,0,0,6.21875,3.32812l48-32a3.99979,3.99979,0,0,0,0-6.65624ZM116,152.52588V103.47412L152.78906,128Zm114.46-81.7207a19.95588,19.95588,0,0,0-12.06934-13.62012C184.59766,44.19873,130.272,44.397,128.02539,44.40771c-2.29443-.01318-56.62207-.20947-90.416,12.77735A19.95556,19.95556,0,0,0,25.54053,70.80469C23.0127,80.50928,20,98.30957,20,128c0,29.69141,3.0127,47.49121,5.54,57.19482a19.95588,19.95588,0,0,0,12.06934,13.62012c33.793,12.98633,88.11865,12.791,90.36523,12.77735.11279.00048.35059.002.707.002,6.88379,0,57.57764-.43164,89.709-12.7793a19.95556,19.95556,0,0,0,12.06885-13.61963C232.9873,175.49072,236,157.69043,236,128,236,98.30859,232.9873,80.50879,230.46,70.80518Zm-7.74219,112.37353a11.9384,11.9384,0,0,1-7.19677,8.16846c-32.37452,12.44092-86.9458,12.25342-87.54639,12.24512-.54981-.00049-55.12207.19531-87.49609-12.24512a11.93961,11.93961,0,0,1-7.19629-8.16895C30.87207,173.92676,28,156.84424,28,128c0-28.84326,2.87256-45.92676,5.28223-55.17871A11.9384,11.9384,0,0,1,40.479,64.65283c32.37452-12.44092,86.94825-12.24267,87.54639-12.24512.5459-.00634,55.12158-.19628,87.49609,12.24512a11.93961,11.93961,0,0,1,7.19629,8.169C225.12793,82.07324,228,99.15576,228,128,228,156.84326,225.12744,173.92676,222.71777,183.17871Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="conteiner-project project5">
+                <div class="project">
+                    <div class="text">
+                        <h2>Calculadora</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./assets/ImageProjects/Calculadora/calculadora3.png" alt="">
+                    </div>
+    
+                    <div class="links">
+                        <a href="https://github.com/LeonardoCampana/Calculadora" target="_blank" class="github">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                            </svg>
+                        </a>
+                        <a href="https://youtu.be/7Z6iEdY8Cnk" target="_blank" class="github">
+                            
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M162.21875,124.67188l-48-32A3.99967,3.99967,0,0,0,108,96v64a3.99987,3.99987,0,0,0,6.21875,3.32812l48-32a3.99979,3.99979,0,0,0,0-6.65624ZM116,152.52588V103.47412L152.78906,128Zm114.46-81.7207a19.95588,19.95588,0,0,0-12.06934-13.62012C184.59766,44.19873,130.272,44.397,128.02539,44.40771c-2.29443-.01318-56.62207-.20947-90.416,12.77735A19.95556,19.95556,0,0,0,25.54053,70.80469C23.0127,80.50928,20,98.30957,20,128c0,29.69141,3.0127,47.49121,5.54,57.19482a19.95588,19.95588,0,0,0,12.06934,13.62012c33.793,12.98633,88.11865,12.791,90.36523,12.77735.11279.00048.35059.002.707.002,6.88379,0,57.57764-.43164,89.709-12.7793a19.95556,19.95556,0,0,0,12.06885-13.61963C232.9873,175.49072,236,157.69043,236,128,236,98.30859,232.9873,80.50879,230.46,70.80518Zm-7.74219,112.37353a11.9384,11.9384,0,0,1-7.19677,8.16846c-32.37452,12.44092-86.9458,12.25342-87.54639,12.24512-.54981-.00049-55.12207.19531-87.49609-12.24512a11.93961,11.93961,0,0,1-7.19629-8.16895C30.87207,173.92676,28,156.84424,28,128c0-28.84326,2.87256-45.92676,5.28223-55.17871A11.9384,11.9384,0,0,1,40.479,64.65283c32.37452-12.44092,86.94825-12.24267,87.54639-12.24512.5459-.00634,55.12158-.19628,87.49609,12.24512a11.93961,11.93961,0,0,1,7.19629,8.169C225.12793,82.07324,228,99.15576,228,128,228,156.84326,225.12744,173.92676,222.71777,183.17871Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="conteiner-project project6">
+                <div class="project">
+                    <div class="text">
+                        <h2>Todo List</h2>
+                    </div>
+                    <div class="img">
+                        <img src="./assets/ImageProjects/TodoList/todolist.png" alt="">
+                    </div>
+    
+                    <div class="links">
+                        <a href="https://github.com/LeonardoCampana/Todo-list" target="_blank" class="github">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                            </svg>
+                        </a>
+                        <a href="https://youtu.be/2QJIlRyTMiY" target="_blank" class="github">
+                            
+                            <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M162.21875,124.67188l-48-32A3.99967,3.99967,0,0,0,108,96v64a3.99987,3.99987,0,0,0,6.21875,3.32812l48-32a3.99979,3.99979,0,0,0,0-6.65624ZM116,152.52588V103.47412L152.78906,128Zm114.46-81.7207a19.95588,19.95588,0,0,0-12.06934-13.62012C184.59766,44.19873,130.272,44.397,128.02539,44.40771c-2.29443-.01318-56.62207-.20947-90.416,12.77735A19.95556,19.95556,0,0,0,25.54053,70.80469C23.0127,80.50928,20,98.30957,20,128c0,29.69141,3.0127,47.49121,5.54,57.19482a19.95588,19.95588,0,0,0,12.06934,13.62012c33.793,12.98633,88.11865,12.791,90.36523,12.77735.11279.00048.35059.002.707.002,6.88379,0,57.57764-.43164,89.709-12.7793a19.95556,19.95556,0,0,0,12.06885-13.61963C232.9873,175.49072,236,157.69043,236,128,236,98.30859,232.9873,80.50879,230.46,70.80518Zm-7.74219,112.37353a11.9384,11.9384,0,0,1-7.19677,8.16846c-32.37452,12.44092-86.9458,12.25342-87.54639,12.24512-.54981-.00049-55.12207.19531-87.49609-12.24512a11.93961,11.93961,0,0,1-7.19629-8.16895C30.87207,173.92676,28,156.84424,28,128c0-28.84326,2.87256-45.92676,5.28223-55.17871A11.9384,11.9384,0,0,1,40.479,64.65283c32.37452-12.44092,86.94825-12.24267,87.54639-12.24512.5459-.00634,55.12158-.19628,87.49609,12.24512a11.93961,11.93961,0,0,1,7.19629,8.169C225.12793,82.07324,228,99.15576,228,128,228,156.84326,225.12744,173.92676,222.71777,183.17871Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+
+        <div class="aboutLeft">
+
+            <img src="./assets/images/foto.jpg" alt="minha-img">
+
+        </div>
+
+        <div class="aboutRight">
+
+            <h1 class="about-h1">Sobre mim</h1>
+
+            <p class="about-p"> 
+                <span>Olá</span>, me chamo Leonardo Bezerra Campana, tenho 19 anos,
+                sou nascido e criado em Maceió - AL. Sempre tive certa facilidade
+                com eletrônicos desde muito novo, como computadores, celulares e videogames, 
+                criando-se assim uma atração quase magnética e natural por tecnologia, nunca me 
+                imaginando trabalhar em outra área a não ser essa,
+                afinal, era contagiante a dimensão de expansão para o futuro com a mesma, 
+                e a programação caiu como uma luva nesse meu desejo. Agora, em constante
+                evolução e desejo de apreendizado, me dedico a sempre me atualizar em
+                novas tecnologias, desse modo, espero que eu possa compartilhar esse FUTURO com você.
+    
+            </p>
+
+        </div>
+        
+
+        
+
+    </section>
+    <section class="contact" id="contact">
+
+        <form action="" id="contactForm">
+            <div class="fullName contactArea">
+                <label for="">Nome e Sobrenome: </label>
+                <input type="text" name="Full name" id="fullName">
+            </div>
+           <div class="email contactArea">
+                <label for="">Email:  </label>
+                <input type="email" name="email" id="email" >
+           </div>
+
+            <div class="message contactArea">
+                <label for="">Mensagem:  </label>
+                <textarea name="message" id="message" cols="40" rows="7"></textarea>
+            </div>
+
+            <div class="submit contactArea">
+                <input type="submit" >
+            </div>
+    
+
+
+        </form>
+        <div class="linksSocialMediasAbout">
+            <a href="https://github.com/LeonardoCampana" target="_blank" class="githubLink"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+              </svg><br>
+              <span>Github</span>
+              <p>Leonardo Bezerra Campana</p>
+              <p>VISITAR PERFIL DO LINKEDIN</p>
+            </a>
+            <a href="https://www.linkedin.com/in/leonardobcampana/" target="_blank" class="linkedinLink"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <line x1="8" y1="11" x2="8" y2="16" />
+                <line x1="8" y1="8" x2="8" y2="8.01" />
+                <line x1="12" y1="16" x2="12" y2="11" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+              </svg><br>
+              <span>Linkedin</span>
+              <p>Leonardo Bezerra Campana</p>
+              <p>VISITAR PERFIL DO LINKEDIN</p>
+              
+            </a>
+        </div>
+        
+        
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Leonardo Bezerra Campana</p>
+    </footer>
+
+</body>
+</html>
