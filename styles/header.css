@@ -6,8 +6,7 @@ header{
 .container-header{
     display: flex;
     align-items: center;
-    height: 100vh;
-
+    height: 35rem;
 
 }
 

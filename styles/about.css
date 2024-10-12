@@ -1,6 +1,6 @@
 .about{
     color: var(--text);
-    height: 100vh;
+    height: 35rem;
     width: 100%;
     display: flex;
 
@@ -8,7 +8,7 @@
 
 .aboutLeft{
     width: 50vw;
-    height: 100%;
+    height: 35rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
 }
 .aboutRight{
     width: 50vw;
-    height: 100%;
+    height: 35rem;
     padding: 100px 40px;
     
 }
