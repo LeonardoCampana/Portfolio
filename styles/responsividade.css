@@ -1145,7 +1145,7 @@
 
     .container-header{
         align-items: center;
-        height: 110rem;
+        height: 75rem;
     }
 
     .container-header-right > img{
@@ -1221,7 +1221,7 @@
 
     .about-p{
         padding: 10px 10px 40px 10px;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     /*skills*/
@@ -1367,7 +1367,7 @@
     .navbar{
         width: 35rem;
         height: 6rem;
-        column-gap: 3rem;
+        column-gap: 4rem;
     }
 
     .navbar li a img {
@@ -1376,7 +1376,7 @@
     }
 
     .navbar li a{
-        height: 6rem;
+        height: 5rem;
         width: 10rem;
     }
 
